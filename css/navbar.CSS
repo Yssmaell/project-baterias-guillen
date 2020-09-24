@@ -1,0 +1,64 @@
+.logo-container{
+    width: 350px;
+    justify-content: center;
+    display: flex;
+  }
+
+.sprite-icon {
+    /* background-image: url(../images/logo1.png); */
+    width: 80%;
+    margin-top: 10px;
+}
+
+.sprite-icon img{
+    /* background-image: url(../images/logo1.png); */
+    width: 100%;
+}
+
+.logo-redes img{
+    width: 50px;
+}
+
+.logo-redes-small img{
+    width: 25px;
+}
+
+.ic-content {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 28px;
+    font-family: 'Gotham',sans-serif;
+    color: white;
+}
+
+.ic-content-samll {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: 'Gotham',sans-serif;
+    color: white;
+}
+
+
+
+
+.carousel-caption{
+    top: 40%;
+    /* text-align: center; */
+    /* color: white;   */
+}
+
+
+
+
+
+#about-us{
+    background-color: #efefef;
+    padding-bottom: 70px;
+}
+
+.section-header{
+    text-align: center;
+    padding: 40px 0;
+    color: #182a74;
+}
