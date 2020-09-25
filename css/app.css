@@ -15,6 +15,7 @@ header{
 
 a{
     text-decoration: none;
+    
 }
 
 h3, .h3 {
@@ -48,14 +49,16 @@ h3, .h3 {
 }
 
 .top-container.inverter:after {
-    right: calc(50% - -420px);
-    background-color: #ffca00;
+    right: calc(50% - -200px);
+    background-color: #efefef;
+    
     z-index: 1;
 }
 
 .top-container.inverter:before {
-    right: calc(50% - -430px);
-    background-color: #fff;
+    right: calc(50% - -700px);
+    background-color: #efefef;
+    
     z-index: 2;
 }
 
