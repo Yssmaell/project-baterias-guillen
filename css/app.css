@@ -129,7 +129,7 @@ h3, .h3 {
     background: #0084ff;
     border-radius: 5px;
     }
-}
+
 .social a:hover{
     padding: 10px 25px;
 }
@@ -168,4 +168,38 @@ h3, .h3 {
         right: calc(50% - -290px);
     }
 }
+
+
+footer {
+    margin-top: 30px;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #efefef;
+    color: black;
+    }
+
+.footer-logo{
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 50px;
+}
+
+footer .container{
+    margin-top: 50px;
+}
+
+footer h3{
+    font-size: 25px;
+}
+
+footer ul {    
+    text-align: left;
+    list-style-type: none;
+    margin-left: 15%;
+    padding: 10px;
+    /* background-color: white; */
+  }
+
 
