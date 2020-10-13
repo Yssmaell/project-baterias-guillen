@@ -41,17 +41,15 @@
 
 .carousel-caption{
     top: 40%;
+    font-size: 40px;
+    color: black;
     /* text-align: center; */
     /* color: white;   */
 }
 
 .carousel-inner img {
     width: 100%;
-    max-height: 600px;
-}
-
-.carousel-inner{
-    height: 600px;
+    max-height: 500px;
 }
 
 
