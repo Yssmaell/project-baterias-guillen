@@ -1,7 +1,7 @@
 .logo-container{
     width: 350px;
-    justify-content: center;
-    display: flex;
+    /* justify-content: center;
+    display: flex; */
   }
 
 .sprite-icon {
@@ -12,11 +12,12 @@
 
 .sprite-icon img{
     /* background-image: url(../images/logo1.png); */
-    width: 100%;
+    width: 280px;
 }
 
 .logo-redes img{
     width: 50px;
+    height: 50px;
 }
 
 .logo-redes-small img{
@@ -41,17 +42,15 @@
 
 .carousel-caption{
     top: 40%;
+    font-size: 40px;
+    color: black;
     /* text-align: center; */
     /* color: white;   */
 }
 
 .carousel-inner img {
     width: 100%;
-    max-height: 600px;
-}
-
-.carousel-inner{
-    height: 600px;
+    max-height: 500px;
 }
 
 

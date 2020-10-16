@@ -49,18 +49,18 @@ h3, .h3 {
 }
 
 .top-container.inverter:after {
-    right: calc(50% - -200px);
+    right: calc(50% - -250px);
     background-color: #efefef;
     
     z-index: 1;
 }
 
-.top-container.inverter:before {
+/* .top-container.inverter:before {
     right: calc(50% - -700px);
     background-color: #efefef;
     
     z-index: 2;
-}
+} */
 
 .top-container .top-nav{
     float: right;
@@ -68,7 +68,7 @@ h3, .h3 {
 }
 
 
-.top-container.inverter .container {
+.top-container.inverter .container-fluid {
     position: relative;
     z-index: 3;
     /* background-color: black; */
@@ -107,7 +107,12 @@ h3, .h3 {
 
 .icon {
     display: block;
-    width: 100%;
+    width: 100%initial
+}
+
+.icon-header {
+    display: block;
+    width: 130px;
 }
 
 .social a{
@@ -123,8 +128,14 @@ h3, .h3 {
     text-align: center;
     font-size: 24px;
 }
-.fa-whatsapp{
+
+.social .fa-whatsapp{
     background: #25d366;   
+    border-radius: 5px;
+}
+
+.fa-whatsapp{
+    /* background: #25d366;    */
     border-radius: 5px;
 }
 .fa-facebook-messenger{
@@ -142,6 +153,8 @@ h3, .h3 {
 }
 .social ul{
     list-style: none;
+    padding: 0;
+    margin: 0;
     border-radius: 15px;
 }
 
@@ -150,6 +163,7 @@ h3, .h3 {
     text-decoration: none;
     color: #fff;
     padding: 10px 30px;
+    margin: 2px;
     z-index: 0;
     transition: 0.1s ease;
 }
@@ -161,6 +175,16 @@ h3, .h3 {
     }
 }
 
+@media (max-width: 1323px) {
+
+    .top-container.inverter:after {
+        right: 800px;
+        background-color: #efefef;
+        
+        z-index: 1;
+    }
+}
+
 @media (max-width: 1199px) {
 
     .top-container.inverter:before {
@@ -168,6 +192,13 @@ h3, .h3 {
     }
     .top-container.inverter:after {
         right: calc(50% - -290px);
+    }
+
+    .top-container.inverter:after {
+        right: 800px;
+        background-color: #efefef;
+        
+        z-index: 1;
     }
 }
 
