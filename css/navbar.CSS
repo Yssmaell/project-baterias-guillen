@@ -8,11 +8,12 @@
     /* background-image: url(../images/logo1.png); */
     width: 80%;
     margin-top: 10px;
+
 }
 
 .sprite-icon img{
     /* background-image: url(../images/logo1.png); */
-    width: 280px;
+    width: 280px;  
 }
 
 .logo-redes img{
@@ -57,7 +58,7 @@
 
 #about-us{
     background-color: #efefef;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
 }
 
 .section-header{
@@ -70,7 +71,7 @@
 
 
 #marcas {
-    padding-bottom: 70px;
+    padding-bottom: 20px;
 }
 
 .articule .card{
