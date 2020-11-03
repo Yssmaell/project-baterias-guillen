@@ -275,9 +275,14 @@ footer i{
         justify-content: center;
         /* background-color: brown; */
     }
+
+    .card{
+        display: block;
+    }
+
     .articule img{
         /* position: absolute; */
-        width: 87%;
+        width: 82%;
     }
 }
 

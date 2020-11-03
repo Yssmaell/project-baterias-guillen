@@ -76,14 +76,16 @@ footer .sprite-icon img{
 .articule .card{
     margin: 30px 0px 0px 0px;
     overflow: hidden;
+    justify-content: center;
+    text-align: center;
     height: 250px;
-  }
+}
   
-  .articule img{
+.articule img{
     /* position: absolute; */
     width: 100%;
     height: 250px;
-  }
+}
 
 .articule .card:hover img {
     -webkit-transform:scale(1.1);
